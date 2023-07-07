@@ -1,14 +1,14 @@
 // wap to should accept 3 argument via commandline of type operands operator and should display the result by performing upto calculatore
-class Calculator
+class Calculator// class name 
 {
-	public static void main(String [ ] args)
+	public static void main(String [ ] args) // main method 
 	{
-		double a,b;
-		String choice;
-		a=Double.parseDouble(args[0]);
-		b=Double.parseDouble(args[2]);
+		double a,b; //variable 
+		String choice; //veriable
+		a=Double.parseDouble(args[0]);//using Math class convert String to double 
+		b=Double.parseDouble(args[2]);//using Math class convert String to double
 		choice=args[1];
-		switch(choice)
+		switch(choice)//conditoin
 		{
 			case "+":
 				System.out.println("Sum is "+(a+b));
@@ -27,7 +27,7 @@ class Calculator
 				break;
 			default:
 				System.out.println("Wrong choice");
-				break;
+				break; // end
 		}
 	}
 }
