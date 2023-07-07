@@ -1,1 +1,1 @@
-# Reverse-number-print
+print first and last digit
